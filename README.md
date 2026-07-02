@@ -27,8 +27,7 @@ Comparar la generación automática de una Landing Page utilizando el mismo prom
 
 ## Deploy
 
-Agregar aquí el enlace generado por Vercel.
-
+https://pf-02-egert.vercel.app/
 ---
 
 ## Prompt
