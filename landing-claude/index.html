@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluxo — Automatiza el trabajo de tu equipo</title>
+  <meta name="description" content="Fluxo conecta tus herramientas y automatiza tareas repetitivas para que tu equipo se enfoque en lo que realmente importa." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Fluxo, ir al inicio">
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 20C4 12 9 6 17 6C21 6 24 8.5 24 8.5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M24 8L24 12M24 8L20 8" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        Fluxo
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#testimonials">Testimonios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Empezar gratis</a>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú de navegación">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-copy" data-animate="fade-up">
+          <p class="eyebrow">Automatización inteligente de flujos de trabajo</p>
+          <h1>El trabajo repetitivo, resuelto. Tu equipo, libre para crear.</h1>
+          <p class="hero-subtitle">
+            Fluxo conecta tus herramientas favoritas y automatiza tareas manuales en minutos,
+            sin escribir una sola línea de código. Menos fricción, más resultados.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary btn-lg">Comenzar ahora — es gratis</a>
+            <a href="#services" class="btn btn-ghost btn-lg">Ver cómo funciona</a>
+          </div>
+          <div class="hero-trust">
+            <span>Confían en nosotros equipos de</span>
+            <div class="trust-logos" aria-hidden="true">
+              <span>Nimbus</span><span>Orbita</span><span>Vela</span><span>Cauce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-animate="fade-in" aria-hidden="true">
+          <div class="dash-card">
+            <div class="dash-card__header">
+              <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            </div>
+            <div class="dash-card__body">
+              <div class="dash-row">
+                <div class="dash-icon">✓</div>
+                <div class="dash-lines"><span class="line long"></span><span class="line short"></span></div>
+              </div>
+              <div class="dash-row">
+                <div class="dash-icon">✓</div>
+                <div class="dash-lines"><span class="line long"></span><span class="line short"></span></div>
+              </div>
+              <div class="dash-chart">
+                <span style="--h:40%"></span>
+                <span style="--h:70%"></span>
+                <span style="--h:55%"></span>
+                <span style="--h:90%"></span>
+                <span style="--h:65%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="float-badge badge-top">+38% productividad</div>
+          <div class="float-badge badge-bottom">Sincronizado ✓</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container about-inner" data-animate="fade-up">
+        <div class="section-heading">
+          <p class="eyebrow">Sobre nosotros</p>
+          <h2>Creamos herramientas que le devuelven tiempo a las personas</h2>
+        </div>
+        <p class="about-text">
+          En Fluxo creemos que la tecnología debería eliminar el trabajo tedioso, no agregarlo.
+          Desde 2019 ayudamos a equipos de todos los tamaños a conectar sus aplicaciones,
+          automatizar procesos internos y tomar mejores decisiones con datos en tiempo real.
+          Hoy más de 4.000 empresas en Latinoamérica confían en nuestra plataforma para
+          simplificar su operación diaria.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">4,000+</span>
+            <span class="stat-label">Empresas activas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">1.2M</span>
+            <span class="stat-label">Tareas automatizadas al mes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">99.9%</span>
+            <span class="stat-label">Disponibilidad garantizada</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading center" data-animate="fade-up">
+          <p class="eyebrow">Servicios</p>
+          <h2>Todo lo que tu equipo necesita para escalar</h2>
+          <p class="section-subtitle">Herramientas flexibles que se adaptan a la forma en que ya trabajas.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="card service-card" data-animate="fade-up">
+            <div class="card-icon" aria-hidden="true">⚡</div>
+            <h3>Automatización de tareas</h3>
+            <p>Elimina procesos manuales repetitivos con flujos configurables en minutos.</p>
+          </article>
+
+          <article class="card service-card" data-animate="fade-up">
+            <div class="card-icon" aria-hidden="true">🔗</div>
+            <h3>Integraciones nativas</h3>
+            <p>Conecta más de 150 aplicaciones sin necesidad de desarrollo técnico.</p>
+          </article>
+
+          <article class="card service-card" data-animate="fade-up">
+            <div class="card-icon" aria-hidden="true">📊</div>
+            <h3>Reportes en tiempo real</h3>
+            <p>Visualiza el rendimiento de tu equipo con paneles claros y accionables.</p>
+          </article>
+
+          <article class="card service-card" data-animate="fade-up">
+            <div class="card-icon" aria-hidden="true">🔒</div>
+            <h3>Seguridad empresarial</h3>
+            <p>Cifrado de extremo a extremo y control de accesos por rol de usuario.</p>
+          </article>
+
+          <article class="card service-card" data-animate="fade-up">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Colaboración en equipo</h3>
+            <p>Comparte flujos, plantillas y resultados con toda tu organización.</p>
+          </article>
+
+          <article class="card service-card" data-animate="fade-up">
+            <div class="card-icon" aria-hidden="true">🎧</div>
+            <h3>Soporte dedicado</h3>
+            <p>Un equipo de especialistas disponible para ayudarte a crecer sin fricciones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-heading center" data-animate="fade-up">
+          <p class="eyebrow">Testimonios</p>
+          <h2>Equipos reales, resultados reales</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <figure class="card testimonial-card" data-animate="fade-up">
+            <div class="stars" aria-label="Calificación de 5 de 5 estrellas">★★★★★</div>
+            <blockquote>
+              “Fluxo cambió por completo la forma en que operamos. Automatizamos reportes
+              que antes nos tomaban horas y ahora se generan solos cada mañana.”
+            </blockquote>
+            <figcaption>
+              <span class="avatar" style="background:#DBEAFE;color:#1D4ED8;">MP</span>
+              <div>
+                <span class="name">Mariana Pereyra</span>
+                <span class="role">Gerente de Operaciones, Nimbus</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial-card" data-animate="fade-up">
+            <div class="stars" aria-label="Calificación de 5 de 5 estrellas">★★★★★</div>
+            <blockquote>
+              “La implementación fue sorprendentemente sencilla. En una semana ya teníamos
+              tres flujos críticos automatizados y funcionando sin errores.”
+            </blockquote>
+            <figcaption>
+              <span class="avatar" style="background:#DCFCE7;color:#15803D;">JL</span>
+              <div>
+                <span class="name">Julián Ledesma</span>
+                <span class="role">CTO, Orbita Software</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial-card" data-animate="fade-up">
+            <div class="stars" aria-label="Calificación de 5 de 5 estrellas">★★★★★</div>
+            <blockquote>
+              “El soporte es excelente y la plataforma es muy intuitiva. Hoy todo nuestro
+              equipo comercial depende de Fluxo para el día a día.”
+            </blockquote>
+            <figcaption>
+              <span class="avatar" style="background:#FEF3C7;color:#B45309;">CS</span>
+              <div>
+                <span class="name">Camila Suárez</span>
+                <span class="role">Directora Comercial, Vela</span>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="section-heading" data-animate="fade-up">
+          <p class="eyebrow">Contacto</p>
+          <h2>Hablemos de tu próximo flujo de trabajo</h2>
+          <p class="section-subtitle">
+            Completá el formulario y un especialista se pondrá en contacto con vos
+            dentro de las próximas 24 horas hábiles.
+          </p>
+        </div>
+
+        <form class="contact-form card" data-animate="fade-up" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nombre completo</label>
+              <input type="text" id="name" name="name" placeholder="Ej: Ana García" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="ana@empresa.com" autocomplete="email" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="company">Empresa</label>
+              <input type="text" id="company" name="company" placeholder="Nombre de tu empresa" autocomplete="organization" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Teléfono</label>
+              <input type="tel" id="phone" name="phone" placeholder="+54 9 11 1234 5678" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" placeholder="Contanos qué te gustaría automatizar..." required></textarea>
+          </div>
+
+          <div class="form-footer">
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+            <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="logo logo-footer" aria-label="Fluxo, ir al inicio">
+          <span class="logo-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 20C4 12 9 6 17 6C21 6 24 8.5 24 8.5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M24 8L24 12M24 8L20 8" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Fluxo
+        </a>
+        <p>Automatización de flujos de trabajo para equipos que quieren avanzar más rápido.</p>
+
+        <div class="social-links" aria-label="Redes sociales">
+          <a href="#" aria-label="Fluxo en Instagram" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Fluxo en LinkedIn" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="8" r="1.4" fill="currentColor"/><rect x="6.3" y="11" width="2.4" height="7" fill="currentColor"/><path d="M12 11h2.3v1.3c.5-.8 1.4-1.5 2.9-1.5 2.2 0 3.3 1.4 3.3 3.9V18h-2.4v-3.9c0-1.1-.5-1.8-1.5-1.8-1.1 0-1.8.8-1.8 1.9V18H12v-7z" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="Fluxo en X" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+          <a href="#" aria-label="Fluxo en YouTube" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="4" stroke="currentColor" stroke-width="2"/><path d="M10 9l6 3-6 3V9z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Enlaces de producto">
+        <h4>Producto</h4>
+        <ul>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#testimonials">Testimonios</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-label="Enlaces legales">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-nav">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:hola@fluxo.com">hola@fluxo.com</a></li>
+          <li><a href="#contact">Escribinos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Fluxo. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

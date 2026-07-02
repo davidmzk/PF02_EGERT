@@ -1,0 +1,61 @@
+You are an expert Senior Frontend Engineer.
+
+Your task is to autonomously generate a complete Landing Page.
+
+Requirements:
+
+Technology:
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- No frameworks
+- No backend
+
+The website must be fully responsive.
+
+Generate exactly these files:
+
+- index.html
+- style.css
+- script.js
+
+The landing page must contain:
+
+1. Sticky Header with navigation menu
+2. Hero Section with headline, subtitle and CTA button
+3. About Us section
+4. Services section with 6 cards
+5. Testimonials section with 3 customer reviews
+6. Contact form (visual only)
+7. Footer with social media links
+
+Design requirements:
+
+- Modern SaaS style
+- White and blue colors
+- Rounded corners
+- Shadows
+- Smooth animations
+- Hover effects
+- Accessible
+- Semantic HTML
+
+Write all visible text in Spanish.
+
+Do NOT ask me questions.
+
+Generate the entire project autonomously.
+
+Return the complete code for each file separately.
+
+First show:
+
+index.html
+
+Then:
+
+style.css
+
+Then:
+
+script.js
